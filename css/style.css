@@ -154,6 +154,8 @@ body {
   background-color: #2f303a;
   letter-spacing: 0.06em;
   text-align: center;
+
+  padding: 200px 0;
 }
 
 .title-hero {
@@ -239,7 +241,13 @@ body {
 
 .team .item {
   width: calc((100% - 90px) / 4);
+
   margin-right: 30px;
+  background-color: var(--white-text-color);
+}
+
+.team .description {
+  padding: 0 32px 24px;
 }
 
 .team .item:nth-child(4n) {
@@ -362,6 +370,7 @@ body {
 }
 
 .button-portfolio {
+  padding: 6px 22px;
   background-color: #f5f4fa;
   color: var(--title-text-color);
   font-weight: 500;
