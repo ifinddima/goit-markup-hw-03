@@ -248,6 +248,8 @@ body {
 
 .team .description {
   padding: 0 32px 24px;
+  margin: 10px 0 16px;
+  text-align: center;
 }
 
 .team .item:nth-child(4n) {
@@ -256,10 +258,6 @@ body {
 
 .team .title-team {
   margin: 30px 0 0;
-}
-
-.team-description {
-  margin: 10px 0 16px;
 }
 
 .team .social-link:not(:last-child) {
